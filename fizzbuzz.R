@@ -63,7 +63,7 @@ manyNumbersInARow <- c(1:20)
 
 fizzRowResult <- sapply(manyNumbersInARow, fizzbuzz4)
 
-print(fizzRowResult)
+print(fizzRowResult) # print out the result
 
 
 ####### Second bit #######
@@ -92,5 +92,5 @@ data$fizzbuzz <- NA
 
 data$fizzbuzz <- sapply(data$numbers, fizzbuzz5)
 
-table(data$fizzbuzz, useNA=c("always"))
+table(data$fizzbuzz, useNA=c("always")) # do some analysis on your fizzes and buzzes...
 
